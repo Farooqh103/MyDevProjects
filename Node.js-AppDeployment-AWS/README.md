@@ -90,6 +90,6 @@ npm run start
 You will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port
 
 ![alt text](<clone prject ss.jpg>)
-### Project is deployed on AWS Site has been Hosted🎉
+### Application is now Hosted🎉
 
 Credit to Kunal Verma for the application code and packages. Link to his Github repo: https://github.com/verma-kunal
