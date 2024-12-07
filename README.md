@@ -1,21 +1,23 @@
 ![cloud](https://github.com/user-attachments/assets/75d85062-d739-4d7c-a1b3-16183a36ce41)
 
 
-Hi there. My name is Hassan and welcome to my Github where i showcase my journey to becoming a 
-Cloud Engineer. This space will be used to show my practical ability through various projects.
+Hi there! 👋
+Welcome to my GitHub profile! My name is Hassan, and this is where I showcase my journey toward becoming a Cloud Engineer. 
+Through various projects, I aim to demonstrate my practical skills and continuous growth in the field.
 
-About Me:
-• Current Career: Since 2022 i have been working as a Software Developer where i have been introuduced
-  the cloud through my daily work.
-  
-• Self Study: While working I've decided to pursuit a career within Cloud where i have been actively 
-  learning how to utilise, design and implement AWS services such as EC2, S3, Lambda, CloudFormation.
-  I also make time to study certifications that would benefit me and back up the skills i get.
+Current Role: 
+Since 2022, I've been working as a Software Developer with a focus on SQL.
+This role introduced me to the exciting world of Cloud Computing, sparking my passion for this ever-evolving domain.
 
-• Troubleshooting and puzzles: Throughout my work i have realised that i enjoy figuring out when things
-  go wrong and how to fix them. I thrive workiing in this type of environment.
+Cloud Enthusiast:
+I'm actively pursuing a career in Cloud Engineering, with a particular focus on mastering AWS services like EC2, S3, Lambda, and CloudFormation. 
+My journey includes hands-on experience with these tools and studying certifications to solidify my skills.
 
-Thank you for taking a look at my Github profile. 
-Stay tuned as i update this with more and more projects!
+Problem Solver: 
+I thrive on troubleshooting and problem-solving. 
+Whether it's diagnosing issues or designing solutions, I enjoy diving deep to understand systems and make them work seamlessly.
+
+Thank you for visiting my profile! 
+Keep an eye on this space as I update it with more exciting cloud-focused projects. 🚀
 
   
