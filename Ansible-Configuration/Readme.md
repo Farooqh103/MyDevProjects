@@ -36,15 +36,17 @@ Now you should be able to ssh in to the server using
 Next next we will create a folder within the target server from your main server. 
 As the prerequisites are complete this will be quick.
 
-ansible -i inventory all -m "shell" -a "touch devopsclass"
+`ansible -i inventory all -m "shell" -a "touch devopsclass"`
 
-![alt text](file:///c%3A/Users/Hassan/Downloads/ansible%20image%201.JPG)
+![ansible image 1](https://github.com/user-attachments/assets/683cb35e-8620-41a6-905a-0edbae75ac73)
+
 
 Here is what it should look like. If there are any errors there will be red writing
 
 Now to check if this was created within the target server
 
-![alt text](file:///c%3A/Users/Hassan/Downloads/ansible%20image%202.JPG)
+![ansible image 2](https://github.com/user-attachments/assets/bcc107ee-67ce-4374-af09-bfa7fd16e683)
+
 
 ### 5. Ansible playbook
 
@@ -56,5 +58,5 @@ This file is attached to the repo
 Once playbook is created i ran this using the code below
 `ansible-playbook -i inventory first-playbook.yml `
 
-![alt text](file:///c%3A/Users/Hassan/Downloads/ansible%203.JPG)
+![ansible 3](https://github.com/user-attachments/assets/25d292b0-19d2-48d0-af90-929267f532ff)
 
