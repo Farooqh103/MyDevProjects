@@ -60,3 +60,11 @@ Once playbook is created i ran this using the code below
 
 ![ansible 3](https://github.com/user-attachments/assets/25d292b0-19d2-48d0-af90-929267f532ff)
 
+Now i have successfully 
+1. Created 2 instances.
+2. SSH into a second one by generating a key
+3. Configured passwordless authentication
+4. Created a folder within the second server from the first using an adhoc command
+5. Created an Ansible Playbook
+6. Installed Nginx using Ansible Playbook
+
