@@ -1,13 +1,18 @@
 # DevOps Projects
 
-## In this folder you will find more DevOps Tools such as
+### In this folder you will find more DevOps Tools such as
 
-# • Ansible
-# • Jenkins
-# • Terraform
-# • CICD 
-# • Docker
-# • Kubernetes
+ • Ansible
+ 
+ • Jenkins
+ 
+ • Terraform
+ 
+ • CICD 
+ 
+ • Docker
+ 
+ • Kubernetes
 
 
   
