@@ -6,6 +6,8 @@
 # • Jenkins
 # • Terraform
 # • CICD 
+# • Docker
+# • Kubernetes
 
 
   
