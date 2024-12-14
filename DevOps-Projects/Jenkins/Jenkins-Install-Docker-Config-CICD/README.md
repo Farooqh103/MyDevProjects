@@ -125,8 +125,10 @@ Once Jenkinss is restarted you need to press `new item` and then give this a nam
 Select `Pipeline`
 Scroll down to `Advanced Project Options` and change the `Definition` to `Pipeline Script from SCM`
 
-Jenkins
+![jenk](https://github.com/user-attachments/assets/b07f0566-0d5e-4ecc-bf94-4ed0bff8fc57)
 
 now once created you can press `build now` and then console output to show the process.
+
+![jenk2](https://github.com/user-attachments/assets/077cf289-b25e-43dd-a83d-52338c1f5730)
 
 Credit to Abishek Veermala for the information, tutorial and explaining things really well!
