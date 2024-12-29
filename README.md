@@ -1,5 +1,5 @@
-![cloud](https://github.com/user-attachments/assets/75d85062-d739-4d7c-a1b3-16183a36ce41)
 
+![alt text](<saa cpp.png>)
 
 ## Hi there! 👋
 Welcome to my GitHub profile! 
