@@ -82,6 +82,6 @@ Error handling in distributed systems
 Cloud resource management
 ```
 
-Massive Thanks to @DeShae Lyda or @ShaeInTheCloud for this tutorial and lab
+## Massive Thanks to @DeShae Lyda or @ShaeInTheCloud for this tutorial and lab
 
 
