@@ -14,24 +14,32 @@ This project is a Weather Data Collection System that demonstrates core DevOps p
   
 ![image](https://github.com/user-attachments/assets/2c375748-b6ca-422e-8729-d3b0286ebf71)
 
-🌟Key Features
+## 🌟Key Features
 
 -🌍 Real-Time Weather Data Collection: Fetches up-to-date weather information for multiple cities worldwide.
+
 -🌡️ Detailed Weather Insights: Displays temperature (°F), humidity levels, and current weather conditions at a glance.
+
 -☁️ Cloud Storage Integration: Automatically saves weather data to AWS S3 for secure and scalable storage.
+
 -📌 Multi-City Tracking: Monitor weather conditions across various locations simultaneously.
+
 -🕒 Historical Tracking: Timestamps every data entry for easy analysis and record-keeping.
 
-🛠️Technical Architecture
+## 🛠️Technical Architecture
 
 -Language: Python 3.x 🐍
+
 -Cloud Provider: AWS (S3) ☁️
+
 -External API: OpenWeather API 🌤️
 
-Core Dependencies:
+## Core Dependencies:
 
 -🛠️ boto3 – AWS SDK for Python
+
 -🔑 python-dotenv – Secure environment variable management
+
 -🌐 requests – Simplified HTTP requests for API integration
 
 ```
