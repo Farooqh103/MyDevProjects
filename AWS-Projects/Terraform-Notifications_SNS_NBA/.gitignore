@@ -132,6 +132,8 @@ venv.bak/
 *.tfvars
 *.tfstate
 .terraform
+.terraform.tfstate
+.terraform.tfstate.backup
 
 # Terraform state files
 terraform.tfstate
