@@ -130,6 +130,11 @@ ENV/
 env.bak/
 venv.bak/
 *.tfvars
+*.tfstate
+
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
 
 # Spyder project settings
 .spyderproject
