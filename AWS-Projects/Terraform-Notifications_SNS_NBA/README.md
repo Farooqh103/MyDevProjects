@@ -41,19 +41,19 @@ game-day-notifications/
 │   ├── gd_notifications.py          # Main Lambda function code
 ├── policies/
 │   ├── gb_sns_policy.json           # SNS publishing permissions
-│   ├── gd_eventbridge_policy.json   # EventBridge to Lambda permissions
-│   └── gd_lambda_policy.json        # Lambda execution role permissions
 ├── .gitignore
 └── README.md                        # Project documentation
+├── Build.tf
 ```
 
 ## **Setup Instructions**
 
 ### **Clone the Repository**
 ```bash
-git clone https://github.com/ifeanyiro9/game-day-notifications.git
-cd game-day-notifications
+git clone https://github.com/Farooqh103/MyDevProjects/edit/master/AWS-Projects/Terraform-Notifications_SNS_NBA.git
+cd Terraform-Notifications_SNS_NBA
 ```
+### Majority of this will be created in Terraform aside from the topic and the subscription.
 
 ### **Create an SNS Topic**
 1. Open the AWS Management Console.
@@ -69,9 +69,6 @@ cd game-day-notifications
 - For Email:
   - Choose Email.
   - Enter a valid email address.
-- For SMS (phone number):
-  - Choose SMS.
-  - Enter a valid phone number in international format (e.g., +1234567890).
 
 4. Click Create Subscription.
 5. If you added an Email subscription:
@@ -79,52 +76,17 @@ cd game-day-notifications
 - Confirm the subscription by clicking the confirmation link in the email.
 6. For SMS, the subscription will be immediately active after creation.
 
-### **Create the SNS Publish Policy**
-1. Open the IAM service in the AWS Management Console.
-2. Navigate to Policies → Create Policy.
-3. Click JSON and paste the JSON policy from gd_sns_policy.json file
-4. Replace REGION and ACCOUNT_ID with your AWS region and account ID.
-5. Click Next: Tags (you can skip adding tags).
-6. Click Next: Review.
-7. Enter a name for the policy (e.g., gd_sns_policy).
-8. Review and click Create Policy.
+### Run Terraform
 
-### **Create an IAM Role for Lambda**
-1. Open the IAM service in the AWS Management Console.
-2. Click Roles → Create Role.
-3. Select AWS Service and choose Lambda.
-4. Attach the following policies:
-- SNS Publish Policy (gd_sns_policy) (created in the previous step).
-- Lambda Basic Execution Role (AWSLambdaBasicExecutionRole) (an AWS managed policy).
-5. Click Next: Tags (you can skip adding tags).
-6. Click Next: Review.
-7. Enter a name for the role (e.g., gd_role).
-8. Review and click Create Role.
-9. Copy and save the ARN of the role for use in the Lambda function.
-
-### **Deploy the Lambda Function**
-1. Open the AWS Management Console and navigate to the Lambda service.
-2. Click Create Function.
-3. Select Author from Scratch.
-4. Enter a function name (e.g., gd_notifications).
-5. Choose Python 3.x as the runtime.
-6. Assign the IAM role created earlier (gd_role) to the function.
-7. Under the Function Code section:
-- Copy the content of the src/gd_notifications.py file from the repository.
-- Paste it into the inline code editor.
-8. Under the Environment Variables section, add the following:
-- NBA_API_KEY: your NBA API key.
-- SNS_TOPIC_ARN: the ARN of the SNS topic created earlier.
-9. Click Create Function.
-
-
-### **Set Up Automation with Eventbridge**
-1. Navigate to the Eventbridge service in the AWS Management Console.
-2. Go to Rules → Create Rule.
-3. Select Event Source: Schedule.
-4. Set the cron schedule for when you want updates (e.g., hourly).
-5. Under Targets, select the Lambda function (gd_notifications) and save the rule.
-
+The terraform script created by me does the following
+1. Allows SNS to publish giving it a policy
+2. Creates an IAM Role
+3. Creates a Lambda Function
+4. Creates Eventbridge and the cron schedule
+5. Assigns the Lambda Function the role
+6. Lets Lambda use the Python code
+7. Passes your security keys from .env.tfvars file to the variables within your terraform script which allows security
+8. The keys also get passed through to lambda
 
 ### **Test the System**
 1. Open the Lambda function in the AWS Management Console.
@@ -138,9 +100,7 @@ cd game-day-notifications
 2. Securing AWS services with least privilege IAM policies.
 3. Automating workflows using EventBridge.
 4. Integrating external APIs into cloud-based workflows.
+5. Creating all of this using Terraform
 
 
-### **Future Enhancements**
-1. Add NFL score alerts for extended functionality.
-2. Store user preferences (teams, game types) in DynamoDB for personalized alerts.
-3. Implement a web UI
+
