@@ -1,7 +1,7 @@
 
 ![saa cpp](https://github.com/user-attachments/assets/09425f1c-c294-4364-83c1-eb6790422d03)
 
-## Hi there! 👋
+## Hi There! 👋
 Welcome to my GitHub profile! 
 
 My name is Hassan, and this is where I showcase my journey toward becoming a Cloud Engineer. 
